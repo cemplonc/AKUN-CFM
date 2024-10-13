@@ -1,18 +1,208 @@
 proxies:
-- name: never rtyu.store-104.17.3.81
-  server: 104.17.3.81
-  port: 80
-  type: vmess
-  uuid: eb0fee39-9aa1-4523-ace4-7ae1262f2bce
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  servername: s1.rtyu.store
-  network: ws
-  ws-opts:
-    path: /vmess-ntls
-    headers:
-      Host: s1.rtyu.store
-  udp: true  
-#=================================================
+  - name: "@V2RAY_VMESS_free"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: e2f4d1fa-0a6d-48c3-a5bb-8b438e78af23
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 119f3a0b.chikiy123w.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: 119f3a0b.chikiy123w.pages.dev
+    udp: true
+  - name: "@V2RAY_VMESS_free 2"
+    server: 104.17.3.81
+    port: 2083
+    type: vless
+    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ArGodev11222.PaGes.Dev
+    network: ws
+    ws-opts:
+      path: /iEKjUnufUjeTiIrt?ed=2560
+      headers:
+        Host: argodev11222.pages.dev
+    udp: true
+  - name: "@V2RAY_VMESS_free 3"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: e8b87dd9-cc8f-407c-a1f3-a564009fe6ee
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: dc1bf227.vf-8co.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: dc1bf227.vf-8co.pages.dev
+    udp: true
+  - name: "@V2RAY_VMESS_free 4"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: a64f0cea-ca89-40e6-b316-b3badff1eb90
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iSaa1.PAGeS.DeV
+    network: ws
+    ws-opts:
+      path: /BDwnEtVwG7BS0S9f?ed=2560
+      headers:
+        Host: iSAA1.paGEs.DEV
+    udp: true
+  - name: "@V2RAY_VMESS_free2"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 38720105-063f-40f5-a5eb-f3198b9b617d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: aksnmaioas.pages.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: aksnmaioas.pages.dev
+    udp: true
+  - name: "@V2RAY_VMESS_free 5"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: a64f0cea-ca89-40e6-b316-b3badff1eb90
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: iSaA1.paGes.DEv
+    network: ws
+    ws-opts:
+      path: /T7OzaaLG5SkllZJf?ed=2560
+      headers:
+        Host: IsaA1.pAGEs.DEV
+    udp: true
+  - name: "@V2RAY_VMESS_free 6"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: c6d299d4-db0b-4444-8b56-b23bbdcbcd67
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: midsUMmER-Bpb.pAgES.DEV
+    network: ws
+    ws-opts:
+      path: /StDNeNqkbQxrj6Xy?ed=2560
+      headers:
+        Host: mIDsuMMer-bpb.PAgEs.DeV
+    udp: true
+  - name: "@V2RAY_VMESS_free 7"
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 4045e84e-5e3c-4f70-8ff5-c1097882a55a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: BPb-WOrKeR-paneL1-e4P.PAGES.DEV
+    network: ws
+    ws-opts:
+      path: /YE8wFQQnzARDsNUP/ZGUucmFkaWNhbGx5LnBybw==
+      headers:
+        Host: bpb-worker-panel1-e4p.pages.dev
+    udp: true
+
+
+  - name: id.vlcfpages.my.id
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 0bc51b14-02aa-40db-aeba-8a9569a7244d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.vlcfpages.my.id
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: id.vlcfpages.my.id
+    udp: true
+
+  - name: کانفیگ پرسرعت رایگان🌋@vmesc
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 5bcb458d-6f49-4e9b-9116-22cc638877d9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: ARIaMEhR.pAGeS.Dev
+    network: ws
+    ws-opts:
+      path: Telegram-------PROXY_MTM-_-_-_-Telegram-------PROXY_MTM/?ed=2048
+      headers:
+        Host: ArIaMEHR.PaGeS.DEv
+    udp: true
+  - name: Backupabadi-80.104.20.75.141
+    type: vmess
+    server: 104.20.75.141
+    port: 80
+    uuid: d27b540b-928d-47c8-87cd-3ab4fae16dd4
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: lars.ezqlusia.cloud
+    network: ws
+    ws-opts: 
+     path: /vmess
+     Headers: 
+      Host: lars.ezqlusia.cloud
+    udp: true
+    skip-cert-verify: true 
+  - name: VMESS-malammalam-ws05/10
+    type: vmess
+    server: 104.20.75.141
+    port: 80
+    uuid: 559f1339-28d1-4ce0-a94c-b83e925ff489
+    alterId: 0
+    cipher: auto
+    tls: false
+    servername: sg3.v4vmess.xyz
+    network: ws
+    ws-opts: 
+     path: /vmess-ws
+     Headers: 
+        Host: sg3.v4vmess.xyz
+    udp: true
+    skip-cert-verify: true 
+  - name: never rtyu.store-104.17.3.81
+    server: 104.17.3.81
+    port: 80
+    type: vmess
+    uuid: eb0fee39-9aa1-4523-ace4-7ae1262f2bce
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: s1.rtyu.store
+    network: ws
+    ws-opts:
+      path: /vmess-ntls
+      headers:
+        Host: s1.rtyu.store
+    udp: true  
+
+
+
+
+
+     #=================================================
